@@ -10,7 +10,7 @@
 (setq w3m-home-page
       (if (file-readable-p "~/html/home.html")
         (concat "file://" (expand-file-name "~/html/home.html"))
-        "http://www.google.com.hk/"))
+        "http://www.google.com.au"))
 
 (setq w3m-use-toolbar t
       ;w3m-use-tab     nil
@@ -21,15 +21,15 @@
 (eval-after-load "w3m-search" '(progn
                                  ; C-u S g RET <search term> RET
                                  (add-to-list 'w3m-search-engine-alist '("g"
-                                                                         "http://www.google.com.hk//search?hl=zh-CN&q=%s" utf-8))
+                                                                         "http://www.google.com.au/search?hl=zh-CN&q=%s" utf-8))
                                  (add-to-list 'w3m-search-engine-alist '("wz"
                                                                          "http://zh.wikipedia.org/wiki/Special:Search?search=%s" utf-8))
                                  (add-to-list 'w3m-search-engine-alist '("q"
-                                                                         "http://www.google.com.hk//search?hl=en&q=%s+site:stackoverflow.com" utf-8))
+                                                                         "http://www.google.com.au/search?hl=en&q=%s+site:stackoverflow.com" utf-8))
                                  (add-to-list 'w3m-search-engine-alist '("s"
-                                                                         "http://www.google.com.hk//codesearch?q=%s" utf-8))
+                                                                         "http://www.google.com.au/codesearch?q=%s" utf-8))
                                  (add-to-list 'w3m-search-engine-alist '("b"
-                                                                         "http://blogsearch.google.com.hk/blogsearch?q=%s" utf-8))
+                                                                         "http://blogsearch.google.com.au/blogsearch?q=%s" utf-8))
                                  (add-to-list 'w3m-search-engine-alist '("w"
                                                                          "http://en.wikipedia.org/wiki/Special:Search?search=%s" utf-8))
                                  (add-to-list 'w3m-search-engine-alist '("d"

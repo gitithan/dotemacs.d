@@ -1,0 +1,10 @@
+ls
+cd zzcfg.d/
+ls
+cd ../../../
+ls
+cd ../
+ls
+ls
+ls
+exit
