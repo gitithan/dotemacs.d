@@ -4,7 +4,7 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
  (filename . "~/Plans/gs.org")
- (front-context-string . "** [[http://code")
+ (front-context-string . "** [[http://www.")
  (rear-context-string)
  (position . 12))
 )
