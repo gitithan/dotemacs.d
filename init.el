@@ -50,7 +50,7 @@
 ;;;;(require 'init-windows)
 (require 'init-sessions)
 ;;;;(require 'init-fonts)
-;;;;(require 'init-mmm)
+(require 'init-mmm)
 ;(require 'init-growl)
 
 (require 'init-editing-utils)
@@ -63,13 +63,13 @@
 (require 'init-markdown)
 (require 'init-csv)
 ;;;;(require 'init-erlang)
-;;;;(require 'init-javascript)
+(require 'init-javascript)
 (require 'init-sh)
-;;;;(require 'init-php)
+(require 'init-php)
 ;;;;(require 'init-org)
-;;;;(require 'init-nxml)
-;;;;(require 'init-css)
-;;;;(require 'init-haml)
+(require 'init-nxml)
+(require 'init-css)
+(require 'init-haml)
 (require 'init-python-mode)
 ;;;;(require 'init-haskell)
 ;;;;(require 'init-ruby-mode)
@@ -78,7 +78,7 @@
 
 (require 'init-lisp)
 (require 'init-slime)
-(require 'init-clojure)
+;;;;(require 'init-clojure)
 (require 'init-common-lisp)
 
 ;;;;(when *spell-check-support-enabled*
