@@ -10,14 +10,6 @@
 (setq nxml-slash-auto-complete-flag t)
 
 
-;; There are newer schema files here: http://syntax.whattf.org//relaxng/
-(eval-after-load 'rng-loc
-  '(progn
-     (require 'whattf-dt)
-     (push (expand-file-name "schemas.xml" (directory-of-library "whattf-dt"))
-           rng-schema-locating-files)))
-
-
 ;;----------------------------------------------------------------------------
 ;; Integration with tidy for html + xml
 ;;----------------------------------------------------------------------------

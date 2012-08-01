@@ -8,3 +8,10 @@ ls
 ls
 ls
 exit
+ls
+cd ..
+ls
+cd /
+e:
+ls
+exit
